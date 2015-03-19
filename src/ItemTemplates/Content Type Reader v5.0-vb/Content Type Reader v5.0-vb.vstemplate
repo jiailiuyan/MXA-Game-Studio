@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Content Type Reader v5.0-vb</Name>
+    <Description>Content Type Reader v5.0-vb</Description>
+    <Icon>Content Type Reader v5.0-vb.ico</Icon>
+    <TemplateID>b8d834dd-211e-4d37-a40d-4d40d3ad3d9b</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>Class.vb</DefaultName>
+    <ProjectType>VisualBasic</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">Class.vb</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

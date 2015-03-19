@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Content Type Writer v5.0-vb</Name>
+    <Description>Content Type Writer v5.0-vb</Description>
+    <Icon>Content Type Writer v5.0-vb.ico</Icon>
+    <TemplateID>0982afc3-5305-466c-b363-db9c0c651e58</TemplateID>
+    <SortOrder>1000</SortOrder>
+    <DefaultName>Class.vb</DefaultName>
+    <ProjectType>VisualBasic</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">Class.vb</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
