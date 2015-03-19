@@ -56,6 +56,9 @@
     <Reference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" />
     <Reference Include="Microsoft.VisualStudio.Shell.Immutable.11.0" />
     <Reference Include="Microsoft.VisualStudio.Shell.Immutable.12.0" />
+    <Reference Include="Microsoft.VisualStudio.VSHelp, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -122,6 +125,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Guids.cs" />
+    <Compile Include="ProjectFlavor\CustomPropertyPage.cs" />
+    <Compile Include="ProjectFlavor\CustomPropertyPageProjectFactory.cs" />
+    <Compile Include="ProjectFlavor\CustomPropertyPageProjectFlavor.cs" />
+    <Compile Include="ProjectFlavor\CustomPropertyPageProjectFlavorCfg.cs" />
+    <Compile Include="ProjectFlavor\CustomPropertyPagePropertyStore.cs" />
+    <Compile Include="ProjectFlavor\CustomPropertyPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProjectFlavor\CustomPropertyPageView.designer.cs">
+      <DependentUpon>CustomPropertyPageView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyPageBase\Constants.cs" />
+    <Compile Include="PropertyPageBase\IPageView.cs" />
+    <Compile Include="PropertyPageBase\IPageViewSite.cs" />
+    <Compile Include="PropertyPageBase\IPropertyPageUI.cs" />
+    <Compile Include="PropertyPageBase\IPropertyStore.cs" />
+    <Compile Include="PropertyPageBase\PageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertyPageBase\PropertyControlMap.cs" />
+    <Compile Include="PropertyPageBase\PropertyControlTable.cs" />
+    <Compile Include="PropertyPageBase\PropertyPage.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -132,6 +157,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ProjectFlavor\CustomPropertyPageView.resx">
+      <DependentUpon>CustomPropertyPageView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -153,6 +181,7 @@
   <ItemGroup>
     <Content Include="Resources\Package.ico" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <UseCodebase>true</UseCodebase>
   </PropertyGroup>
