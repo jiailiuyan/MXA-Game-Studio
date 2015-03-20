@@ -1,4 +1,4 @@
-# SharpDX Game Studio [![Build Status](https://travis-ci.org/insma/SharpDX-Game-Studio.svg)](https://travis-ci.org/insma/SharpDX-Game-Studio)
+# SharpDX Game Studio
 
 Visual Studio extension allows to use SharpDX Framework.
 
