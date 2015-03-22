@@ -1,14 +1,14 @@
 ﻿<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Content Pipeline Extension Library v5.0-vb</Name>
-    <Description>Content Pipeline Extension Library v5.0-vb</Description>
+    <Name>Content Pipeline Extension Library (5.0)</Name>
+    <Description>A project for creating an MXA Framework 5.0 Content Pipeline extension library</Description>
     <Icon>Content Pipeline Extension Library v5.0-vb.ico</Icon>
     <ProjectType>VisualBasic</ProjectType>
     <TemplateID>be151204-d412-43b8-b05d-f590e36ccb06</TemplateID>
     <SortOrder>1000</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Content Pipeline Extension Library v5.0-vb</DefaultName>
+    <DefaultName>Content Pipeline Extension Library</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
   </TemplateData>

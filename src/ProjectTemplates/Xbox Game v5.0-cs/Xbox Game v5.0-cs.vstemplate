@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Xbox Game v5.0-cs</Name>
-    <Description>Xbox Game v5.0-cs</Description>
+    <Name>Xbox Game (5.0)</Name>
+    <Description>A project for creating an MXA Framework 5.0 Xbox game</Description>
     <Icon>Xbox Game v5.0-cs.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>487401c4-c774-484b-9c93-df51ef3f2ac2</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xbox Game v5.0-cs</DefaultName>
+    <DefaultName>Xbox Game</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>

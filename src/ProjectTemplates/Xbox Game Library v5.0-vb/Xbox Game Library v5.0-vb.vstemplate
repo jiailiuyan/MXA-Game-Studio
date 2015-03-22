@@ -1,14 +1,14 @@
 ﻿<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Xbox Game Library v5.0-vb</Name>
-    <Description>Xbox Game Library v5.0-vb</Description>
+    <Name>Xbox Game Library (5.0)</Name>
+    <Description>A project for creating an MXA Framework 5.0 Xbox game library</Description>
     <Icon>Xbox Game Library v5.0-vb.ico</Icon>
     <ProjectType>VisualBasic</ProjectType>
     <TemplateID>dcfc3c66-37ff-44db-8896-38387fcd3121</TemplateID>
     <SortOrder>1000</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xbox Game Library v5.0-vb</DefaultName>
+    <DefaultName>Xbox Game Library</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
   </TemplateData>

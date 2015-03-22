@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Windows Game Library v5.0-cs</Name>
-    <Description>Windows Game Library v5.0-cs</Description>
+    <Name>Windows Game Library (5.0)</Name>
+    <Description>A project for creating an MXA Framework 5.0 Windows game library</Description>
     <Icon>Windows Game Library v5.0-cs.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>7c0d688f-e054-4b0f-ba08-d1c038bf8bc0</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Windows Game Library v5.0-cs</DefaultName>
+    <DefaultName>Windows Game Library</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>

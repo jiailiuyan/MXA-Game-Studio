@@ -1,14 +1,14 @@
 ﻿<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Windows Game v5.0-vb</Name>
-    <Description>Windows Game v5.0-vb</Description>
+    <Name>Windows Game (5.0)</Name>
+    <Description>A project for creating an MXA Framework 5.0 Windows game</Description>
     <Icon>Windows Game v5.0-vb.ico</Icon>
     <ProjectType>VisualBasic</ProjectType>
     <TemplateID>9b367597-4e9a-48fe-bf00-b6bb1f7c0e6d</TemplateID>
     <SortOrder>1000</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Windows Game v5.0-vb</DefaultName>
+    <DefaultName>Windows Game</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
   </TemplateData>
